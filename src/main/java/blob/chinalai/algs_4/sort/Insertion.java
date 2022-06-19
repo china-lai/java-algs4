@@ -1,4 +1,4 @@
-package org.example.sort;
+package blob.chinalai.algs_4.sort;
 
 public class Insertion extends SortTemplate{
     public void sort(Comparable[] comparables) {

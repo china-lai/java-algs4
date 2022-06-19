@@ -1,4 +1,4 @@
-package org.example.sort;
+package blob.chinalai.algs_4.sort;
 
 /**
  * 选择排序

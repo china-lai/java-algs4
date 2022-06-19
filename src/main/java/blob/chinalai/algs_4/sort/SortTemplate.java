@@ -1,4 +1,4 @@
-package org.example.sort;
+package blob.chinalai.algs_4.sort;
 
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
