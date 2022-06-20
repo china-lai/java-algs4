@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a06e871d-6075-47b3-b531-29bcce58b57e" name="Changes" comment="1. 细分 算法 与 入门&#10;2. 修改包名的域名">
-      <change afterPath="$PROJECT_DIR$/src/main/java/blob/chinalai/core_one/App.java" afterDir="false" />
+    <list default="true" id="a06e871d-6075-47b3-b531-29bcce58b57e" name="Changes" comment="1. 注释">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blob/chinalai/algs_4/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blob/chinalai/algs_4/sort/Insertion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/java-algs4/src/main/java/org/example/sort",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/java-algs4/src/main/java/org/example/sort&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\java-algs4\src\main\java\org\example\sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Insertion">
+  <component name="RunManager" selected="Application.SortCompare">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="java-algs4" />
@@ -113,8 +114,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="blob.chinalai.algs_4.sort.SortCompare" />
+      <module name="java-algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blob.chinalai.algs_4.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="blob.chinalai.algs_4.sort.Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="blob.chinalai.algs_4.sort.Insertion" />
+      <module name="java-algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blob.chinalai.algs_4.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortCompare" />
+        <item itemvalue="Application.blob.chinalai.algs_4.sort.Insertion" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Shell" />
@@ -130,7 +159,26 @@
       <option name="presentableId" value="Default" />
       <updated>1655645913545</updated>
       <workItem from="1655645916160" duration="400000" />
-      <workItem from="1655646563330" duration="1064000" />
+      <workItem from="1655646563330" duration="2757000" />
+      <workItem from="1655728303868" duration="494000" />
+      <workItem from="1655728949071" duration="72000" />
+      <workItem from="1655729031242" duration="90000" />
+      <workItem from="1655729138430" duration="177000" />
+      <workItem from="1655729386396" duration="116000" />
+      <workItem from="1655729518229" duration="343000" />
+      <workItem from="1655730026017" duration="12000" />
+      <workItem from="1655730077426" duration="89000" />
+      <workItem from="1655730179270" duration="163000" />
+      <workItem from="1655730419066" duration="67000" />
+      <workItem from="1655730598613" duration="41000" />
+      <workItem from="1655730652232" duration="14000" />
+      <workItem from="1655730692324" duration="13000" />
+      <workItem from="1655730719260" duration="169000" />
+      <workItem from="1655730900432" duration="16000" />
+      <workItem from="1655730944830" duration="116000" />
+      <workItem from="1655731084597" duration="46000" />
+      <workItem from="1655731151030" duration="16000" />
+      <workItem from="1655731193532" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="初始化文件">
       <created>1655646159836</created>
@@ -174,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655647634453</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1. 入口">
+      <created>1655647790093</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655647790093</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +251,7 @@
     <MESSAGE value="algs 依赖" />
     <MESSAGE value="排序" />
     <MESSAGE value="1. 细分 算法 与 入门&#10;2. 修改包名的域名" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 细分 算法 与 入门&#10;2. 修改包名的域名" />
+    <MESSAGE value="1. 入口" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 入口" />
   </component>
 </project>
