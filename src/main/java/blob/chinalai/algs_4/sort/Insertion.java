@@ -4,6 +4,8 @@ package blob.chinalai.algs_4.sort;
  * 插入排序
  */
 public class Insertion extends SortTemplate{
+
+    @Override
     public void sort(Comparable[] comparables) {
         int N = comparables.length;
         for (int i=1; i<N; i++) {
