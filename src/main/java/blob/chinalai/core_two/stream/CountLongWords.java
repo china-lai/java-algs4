@@ -19,12 +19,12 @@ public class CountLongWords {
                 StandardCharsets.UTF_8
         );
 
-        var world = List.of( contents.split("\\PL+") );
+        var words = List.of( contents.split("\\PL+") );
 
         var count = 0L;
         // 统计长单词数量
         // 第一种方案是我怎么做，遍历？
-        for (var word: world) {
+        for (var word: words) {
             if (word.length() > 12)
                 count++;
         }
@@ -32,7 +32,7 @@ public class CountLongWords {
 
         // 第二种 流式
         // 我要长单词，我需要做什么。只需要判断下单词长度即可
-        count = world.stream().filter( w -> w.length() > 12 ).count();
+        count = words.stream().filter( w -> w.length() > 12 ).count();
         System.out.println("stream count: " + count);
     }
 
