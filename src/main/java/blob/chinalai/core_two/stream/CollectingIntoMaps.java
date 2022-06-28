@@ -69,7 +69,7 @@ public class CollectingIntoMaps {
                 )
         );
 
-
+        // 上述实现，基本上都过于冗余，所以大部分的时候这个特性仅仅只是简单 流 转个 map 即可，而无需过多考虑重复的问题
 
     }
 
@@ -83,8 +83,8 @@ public class CollectingIntoMaps {
     }
 
     public static class Person {
-        private  int id;
-        private String name;
+        private final int id;
+        private final String name;
 
         public Person(int id, String name) {
             this.id = id;
